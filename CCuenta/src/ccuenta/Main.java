@@ -24,7 +24,7 @@ public class Main {
             miCuenta.retirar(2300);
         } catch (Exception e)
         {
-            System.out.print("Fallo al retirar");
+            System.out.print("Fallo al retirar el dinero");
         }
         
         try
@@ -33,7 +33,7 @@ public class Main {
             miCuenta.ingresar(695);
         } catch (Exception e)
         {
-            System.out.print("Fallo al ingresar");
+            System.out.print("Fallo al ingresar el dinero");
         }
         saldoActual = miCuenta.estado();
         System.out.println("El saldo actual es"+ saldoActual );
